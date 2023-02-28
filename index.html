@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Calculator</title>
+		<style>
+			section{
+				padding:50px;
+				background-color:#d9f6f9;
+				}
+			.container{
+				width:23%;
+				margin:auto;
+				background-color:#ffffff;
+				border-radius:10px;
+				}
+			input{
+				width:84%;
+				margin:15px;
+				font-size:20px;
+				padding:10px 5px;
+				}
+			#result{
+				background-color:#d9f6f9;
+				border:1px solid #d9f6f9;
+				}
+			button{
+				background-color:#9cbfff;
+				font-size:30px;
+				border-radius:5px;
+				padding:4px 17px;
+				margin:0 5px;
+				border:1px solid #9cbfff;
+				color:#ffffff;
+				}
+			.btns{
+				padding:20px;
+				}
+		</style>
+	</head>
+	</body>
+		<section>
+			<div class="container">
+				<input id="first" type="text" >
+				<input id="second" type="text" >
+				<input id="result" type="text" >
+				<div class="btns">
+					<button id="one" onclick="add()">+</button>
+					<button id="one" onclick="sub()">-</button>
+					<button id="one" onclick="mul()">*</button>
+					<button id="one" onclick="div()">/</button>	
+				</div>
+			</div>
+		</section>
+	
+		<script src="main.js"></script>
+	</body>
+</html>
